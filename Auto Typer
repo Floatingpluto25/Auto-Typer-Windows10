@@ -1,0 +1,14 @@
+Set wshshell = Wscript.CreateObject("Wscript.shell")
+Wshshell.run "notepad"
+wscript.sleep 200
+wshshell.sendkeys "Starting UP"
+wscript.sleep 200 
+wshshell.sendkeys " "
+wscript.sleep 200
+wshshell.sendkeys "Welcome to Typer"
+Wshshell.run "notepad"
+wscript.sleep 400
+wshshell.sendkeys "Hi"
+wscript.sleep 100
+wshshell.sendkeys " "
+wshshell.sendkeys "Please don't stop this because we are currently hacking your pc"
